@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Bubblesort {
     public static void main(String[] args) {
-        int nums[]={5,3,7,1,9};
+        int nums[]={3,2,1,0,4};
         for(int i=0; i<nums.length; i++){
             for(int j=i+1; j<nums.length; j++){
                 if(nums[i]>nums[j]){
@@ -14,8 +14,7 @@ public class Bubblesort {
                 }
             }
         }
-        Integer[] newArray = {}; 
-        List<Integer> list = new ArrayList<>(Arrays.asList(newArray));
+        List<Integer> list = new ArrayList();
         for(int x:nums){
             list.add(x);
         }
